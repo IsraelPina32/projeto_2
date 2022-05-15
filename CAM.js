@@ -32,3 +32,6 @@ function table(linhas){
        tabela.appendChild(tr); // tabela e pai da tr
     }
 }
+
+let minas = [[2,5],[6,9]];
+table(campo(8,8,minas))
