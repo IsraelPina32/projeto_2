@@ -4,20 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Campo minado</title>
-    <link rel="stylesheet" href="CAM.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="inicial.css">
 </head>
 <body>
-        <table id="campo" border="1">
-        </table>
-        <div>
-            <br>
-            Seleciona a dificuldade: <select id="selecao">
+    <h1>teste</h1>
+      <div>
+          <label for="selecao"> Seleciona a dificuldade: </label>
+           <select id="selecao" onchange="mudar()">
+                <option value="P">Escolha</option>
                 <option value="F">Facíl</option>
                 <option value="N">Normal</option>
                 <option value="D">Difícil</option>
             </select>
         </div>
-        <script src="CAM.js"></script>
+
+        <script src="inicial.js"></script>
 </body>
 </html>
