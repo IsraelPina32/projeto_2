@@ -4,11 +4,11 @@ function mudar() {
     var value = select.options[select.selectedIndex].value;
 
     if(value == "F"){
-        location.href = "facil.html";
+        location.href = "escolhas do usuario/facil.html";
     } else if(value == "N"){
-        location.href = "normal.html";
+        location.href = "escolhas do usuario/normal.html";
     } else if(value == "D"){
-        location.href = "dificil.html";
+        location.href = "escolhas do usuario/dificil.html";
     } else{
         alert("selecione algo válido")
     }
