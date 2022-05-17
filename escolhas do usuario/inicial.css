@@ -11,4 +11,6 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    background-image: url(img/papel2.jpg);
+    color: darkorange;
 }

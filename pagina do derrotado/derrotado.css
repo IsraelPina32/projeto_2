@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url(over.webp);
+ 
+}
+
+.principal{
+    display: flex;
+    flex-direction: center;
+    align-items: center;
+}
+img{
+    height: 250px;
+    border-radius: 8px;
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    color: #c2904b;
+}

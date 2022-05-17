@@ -1,7 +1,7 @@
 function  campo(colunas_count,linhas_count,minas){
     let linhas =  [];
 
-    //colocando as minas no campo
+    ///colocando as minas no campo
     for(let i = 0; i < linhas_count; i++){
         linhas[i] = [];
         for(let c = 0; c < colunas_count;c++){
@@ -81,5 +81,5 @@ function geradoDeMinas(quantidade,colunas,linhas){
 }
 
 // Definindo as minas no campo
-let minas = geradoDeMinas(10,8,8)
-table(campo(8, 8,minas))
+let minas = geradoDeMinas(10,8,10)
+table(campo(8, 10,minas))
