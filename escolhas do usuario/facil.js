@@ -39,13 +39,9 @@ function clicado(evento){
         for(let elemento of document.querySelectorAll("span")){
             elemento.setAttribute('class', '')
         }
-        alert("perdedor")
-        let escolha = prompt("deseja jogar novamente: S/N");
-        if(escolha == "S"){
-            window.location.reload();
-        } else{
-            location.href = "inicialpag.html"
-        }
+        alert("Você perdeu")
+        // let escolha = prompt("deseja jogar novamente: S/N");
+        location.href = "../lost/lost.html"
     } else{
         evento.target.childNodes[0].setAttribute('class', '')
     }
