@@ -39,7 +39,7 @@ function clicado(evento){
         for(let elemento of document.querySelectorAll("span")){
             elemento.setAttribute('class', '')
         }
-        alert("Perdeu ruim")
+        alert("perdedor")
         let escolha = prompt("deseja jogar novamente: S/N");
         if(escolha == "S"){
             window.location.reload();

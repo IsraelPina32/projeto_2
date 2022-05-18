@@ -38,8 +38,9 @@ function clicado(evento){
     if(evento.target.textContent === "*"){
         for(let elemento of document.querySelectorAll("span")){
             elemento.setAttribute('class', '')
+            location.href = "lost.html"
         }
-        alert("Perdeu ruim")
+        
         let escolha = prompt("deseja jogar novamente: S/N");
         if(escolha == "S"){
             window.location.reload();
